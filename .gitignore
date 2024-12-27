@@ -1,0 +1,90 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
+*.log.*
+
+# Docker
+docker-compose.override.yml
+*.pid
+*.seed
+*.pid.lock
+
+# Database
+*.sqlite3
+*.db
+
+# Virtual environment
+pip-wheel-metadata/
+pip-log.txt
+poetry.lock
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*~
+
+# Mypy
+.mypy_cache/
+
+# Alembic
+alembic/versions/*.pyc
+alembic/versions/*.pyc*
+
+# Local Python environment and dependency management
+poetry.lock
+
+# FastAPI auto-generated files
+static/

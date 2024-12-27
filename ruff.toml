@@ -1,0 +1,21 @@
+line-length = 120
+
+[lint]
+select = [
+    "F",
+    "E",
+    "B",
+    "I",
+    "A",
+    "N",
+    "W",
+    "T20",
+    "ANN",
+]
+
+ignore = ["ANN101", "B008", "ANN401"]
+
+fixable = ["ALL"]
+
+[format]
+docstring-code-format = true
